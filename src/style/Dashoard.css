@@ -1,0 +1,32 @@
+.DivContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.borderTest {
+    border-color: #aaaaee;
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.DivContainer2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Fontsytle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+
+}
+
+.Mapstyle {
+    width: 604px;
+    height: 326px;
+}
