@@ -1,10 +1,13 @@
+
 import '../style/Market_Place.css'
 
 const Market_Place = () => {
   return (
-    <div className='frame39 borderTest'>
-      <div className='frame38 borderTest'>
-        <p className='WordStyle borderTest'>
+    <div className='frame39 '>
+      <meta http-equiv="refresh" content="15;url=/" />
+      
+      <div className='frame38 '>
+        <p className='WordStyle '>
           we are working on relase this feature
         </p>
       </div>

@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 10px 16px 50px;
+
     gap: 10px;
 
     width: 1252px;
@@ -30,7 +30,7 @@
 .INFORMATIONA {
     width: 251px;
     height: 39px;
-
+    padding: 10px 16px 50px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -43,10 +43,160 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px 16px 0px 42px;
+
     gap: 16px;
 
     width: 1252px;
     height: 59px;
 
+    left: 0px;
+    top: 115px;
+    border-radius: 0px;
+}
+
+
+.company_name {
+    width: 239px;
+    height: 39px;
+    padding: 0px 16px 0px 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.Frame15 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px;
+    gap: 16px;
+
+    width: 667px;
+    height: 49px;
+}
+
+.wordcolor {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.table_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: stretch;
+    height: 753px;
+}
+
+.Frame3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 42px 200px;
+    gap: 297px;
+    width: stretch;
+    height: auto;
+
+    background: rgba(15, 86, 86, 0.9);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7), 0px 0px 50px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+}
+
+.company_name2 {
+    width: stretch;
+    /* height: 46px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 46px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.Frame8 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: stretch;
+    height: 39px;
+}
+
+.EarnedFontStyle {
+    width: stretch;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    background: linear-gradient(72.16deg, #5246BA 7.21%, #5643F0 15.06%, #2ABBDC 89.89%, #73E5FF 107.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.Frame4 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 42px;
+    gap: 297px;
+
+    width: stretch;
+    height: 125px;
+
+    background: rgba(51, 51, 51, 0.6);
+    /* card_shadow */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7), 0px 0px 50px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+}
+
+.Frame1 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 32px;
+    gap: 10px;
+
+    width: auto;
+    height: auto;
+
+    /* blue_gridient */
+    background: linear-gradient(72.16deg, #5246BA 7.21%, #5643F0 15.06%, #2ABBDC 89.89%, #73E5FF 107.68%);
+    border-radius: 24px;
+
+}
+
+.Frame2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 33px 27px;
+    gap: 10px;
+
+    width: 84px;
+    height: 81px;
+
+    background: rgba(51, 51, 51, 0.64);
+    border-radius: 24px;
 }

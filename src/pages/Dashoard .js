@@ -25,8 +25,6 @@ const Dashoard = () => {
         </div>
       </div>
     </div>
-
-
   );
 };
 
