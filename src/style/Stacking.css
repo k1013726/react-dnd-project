@@ -1,0 +1,52 @@
+.BorderTest {
+    border-color: #aaaaee;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.Frame14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1252px;
+    height: 943px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 16px 50px;
+    gap: 10px;
+
+    width: 1252px;
+    height: 99px;
+
+}
+
+.INFORMATIONA {
+    width: 251px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.table_head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px 0px 42px;
+    gap: 16px;
+
+    width: 1252px;
+    height: 59px;
+
+}

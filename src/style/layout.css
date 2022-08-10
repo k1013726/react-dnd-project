@@ -6,9 +6,9 @@
 }
 
 .borderTest {
-    border-color: #aaaaee;
+    /* border-color: #aaaaee;
     border-width: 3px;
-    border-style: solid;
+    border-style: solid; */
     padding: 5px;
     display: flex;
 
@@ -52,11 +52,19 @@
 .credit {
     flex-direction: column;
     align-items: center;
-    padding: 20px 16px;
+    
     width: 71px;
     height: 71.2px;
+
+    background: linear-gradient(240.59deg, #9B3CE7 15.63%, #953CCF 21.06%, #D56583 81.89%, #DF7083 85.15%);
+    /* background-image: url(../img/Vector.png); */
+    border-radius: 46px;
+
 }
 
+.img_cradit{
+    padding: 20px 16px;
+}
 .creditfont {
     color: #FFF;
     font-family: 'Inter';
