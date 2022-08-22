@@ -1,0 +1,205 @@
+.BorderTest {
+    border-color: #aaaaee;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.Frame14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 1252px;
+    height: 943px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+
+    width: 1252px;
+    height: 99px;
+
+}
+
+.INFORMATIONA {
+    width: 251px;
+    height: 39px;
+    padding: 10px 16px 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.table_head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 1252px;
+    height: 59px;
+    left: 0px;
+    top: 115px;
+    border-radius: 0px;
+}
+
+
+.company_name {
+    width: 239px;
+    height: 39px;
+    padding: 0px 16px 0px 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.Frame15 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px;
+    gap: 16px;
+
+    width: 667px;
+    height: 49px;
+}
+
+.wordcolor {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.table_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: stretch;
+    height: 753px;
+}
+
+.Frame3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 42px 200px;
+    gap: 297px;
+    width: auto;
+    background: rgba(15, 86, 86, 0.9);
+    /* card_shadow */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7), 0px 0px 50px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+
+}
+
+.company_name2 {
+    /* width: stretch; */
+    /* height: 46px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 46px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.Frame8 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+.EarnedFontStyle {
+    width: stretch;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    background: linear-gradient(72.16deg, #5246BA 7.21%, #5643F0 15.06%, #2ABBDC 89.89%, #73E5FF 107.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.Frame4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+}
+
+.Frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 32px;
+    gap: 10px;
+
+    /* blue_gridient */
+    background: linear-gradient(72.16deg, #5246BA 7.21%, #5643F0 15.06%, #2ABBDC 89.89%, #73E5FF 107.68%);
+    border-radius: 24px;
+}
+.Frame2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 33px 27px;
+    gap: 10px;
+    background: rgba(51, 51, 51, 0.64);
+    border-radius: 24px;
+}
+.WordStyle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.WordStyle2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.WordStyle3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
