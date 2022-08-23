@@ -1,29 +1,28 @@
 import { Outlet, Link } from "react-router-dom";
 import '../style/layout.css'
-import Logo from '../img/Logo.png'
-import cradit from '../img/Vector.png'
+import Logo from '../img/Logo.svg'
+import Cradit from '../img/Cradit.svg'
 
 const Layout = () => {
     return (
         <>
             <nav >
-                <div className="sticky_header">
-                    <div className="borderTest Logo">
-                        <img src={Logo} alt="none"></img>
+                <div className="StickyHeader ">
+                    <div>
+                        <img src={Logo} alt="None" className="LogoStyle"></img>
                     </div>
-                    <div className="borderTest ">
-                        <Link to="/" className="wordsytle frame" >Dashoards</Link>
-                        <Link to="/Stacking" className="wordsytlea frame17">Stacking</Link>
-                        <Link to="/Market" className="wordsytle frame">Market Place</Link>
+                    <div className="TopMenu">
+                        <Link to="/" className="MenuFrame2" >Dashoards</Link>
+                        <Link to="/Stacking" className="MenuFrame">Stacking</Link>
+                        <Link to="/Market" className="MenuFrame">Market Place</Link>
                     </div>
-                    <div className="borderTest ">
-                        <div className="credit">
-                            <img src={cradit} alt="none" className="img_cradit"></img>
+                    <div className="CreditFrame">
+                        <div className="">
+                            <img src={Cradit} alt="None"></img>
                         </div>
                         <div>
-                            <div className="creditfont" >10,279 USD</div>
-                            <div className="creditfont"></div>
-
+                            <div className="CreditFont">10,279 USD</div>
+                            <div className="CreditFont2">some words</div>
                         </div>
                     </div>
                 </div>

@@ -1,28 +1,17 @@
 import '../style/Dashoard.css'
-import map from '../img/mao.png'
+import map from '../img/map.png'
 import chart from '../img/barchart.png'
 
 const Dashoard = () => {
   return (
-
-    <div className="Frame27 ">
-      <div className="Frame26 ">
-        <div className="Frame25 ">
-          <p className="company_info" >
-            company info
-          </p>
-        </div>
-        <div className="Rectangle2">
-          <img src={chart} alt='' className="" />
-        </div>
+    <div className="DashoardFrame ">
+      <div className="InfoFrame ">
+        <div className='DashoardFont'>company info</div>
+        <img src={chart} alt="" className></img>
       </div>
-      <div className="company_location ">
-        <div className="Frame24  ">
-          <p className='company_locations'>company locations</p>
-        </div>
-        <div className="">
-          <img src={map} alt='' className="Mask_group"/>
-        </div>
+      <div className="InfoFrame ">
+        <div className='DashoardFont'>company locations</div>
+        <img src={map} alt=""></img>
       </div>
     </div>
   );
