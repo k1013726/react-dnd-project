@@ -20,6 +20,7 @@ const Layout = () => {
                         <div className="">
                             <img src={Cradit} alt="None"></img>
                         </div>
+                        
                         <div>
                             <div className="CreditFont">10,279 USD</div>
                             <div className="CreditFont2">some words</div>
