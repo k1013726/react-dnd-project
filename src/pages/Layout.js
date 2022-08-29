@@ -23,7 +23,7 @@ const Layout = () => {
                     </div>
                     <div className="CreditFrame">
                         <div className="">
-                            <img src={Cradit} alt="None"></img>
+                            <img src={Cradit} alt="None">123</img>
                         </div>
                         
                         <div>
