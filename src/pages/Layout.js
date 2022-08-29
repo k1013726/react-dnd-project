@@ -3,7 +3,12 @@ import '../style/layout.css'
 import Logo from '../img/Logo.svg'
 import Cradit from '../img/Cradit.svg'
 
+
+
+
+
 const Layout = () => {
+    
     return (
         <>
             <nav >
